@@ -27,6 +27,26 @@ namespace HalcyoniteTweaks
       Log.Init(Logger);
       // LoadAssets();
 
+      /*
+      CharacterBody info
+      Stats
+      accel = 40
+      armor = 10
+      baseMoveSpeed = 6.6
+      baseDamage = 20
+      levelDamage = 4
+      baseMaxHealth = 900
+      levelMaxHealth = 270
+
+      CharacterMaster Info
+      1 Golden Slash maxDistance 15 minDistance 0
+      2 Golden Swipe maxDistance 20 minDistance 15
+      3 WhirlwindRush maxDistance 60 minDistance 20
+      4 TriLaser maxDistance 120 minDistance 30
+      5 Follow Target maxDistance 25 minDistance 0 shouldSprint true
+      6 Follow Nodegraph maxDistance Infinity minDistance 0 shouldSprint false
+      */
+
       stopwatch.Stop();
       Log.Info_NoCallerPrefix($"Initialized in {stopwatch.Elapsed.TotalSeconds:F2} seconds");
     }
